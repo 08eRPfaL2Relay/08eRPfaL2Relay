@@ -1,0 +1,19 @@
+Nickname    xxx
+ContactInfo email: xxx fingerprint: xxx matrix: xxx
+MyFamily    xxx,xxx
+# You can change ORPort, ControlPort, DirPort to a port of your choice
+ORPort      9001
+ControlPort 9051
+DirPort     9034
+# I have 120TB montly 
+# 120TB / 2 (60TB upload and 60TB download)
+# https://www.calculator.net/bandwidth-calculator.html
+RelayBandwidthRate 167 MBits
+# RelayBandwidthBurst is four times RelayBandwidthRate
+RelayBandwidthBurst 668 MBits 
+ExitRelay   0
+SocksPort   0
+
+# MetricsPort
+# MetricsPort 127.0.0.1:9035
+# MetricsPortPolicy accept 127.0.0.1
