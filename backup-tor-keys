@@ -1,0 +1,7 @@
+$ sudo -su
+$ cd /var/lib/
+$ tar -cvf tor.tar.gz tor
+$ mv tor.tar.gz tor ../../home/your_user
+now you can download via ftp
+
+# https://support.torproject.org/relay-operators/upgrade-or-move/
