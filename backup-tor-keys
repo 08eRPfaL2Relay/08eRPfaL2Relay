@@ -1,7 +1,11 @@
+# run as root
 $ sudo -su
-$ cd /var/lib/
-$ tar -cvf tor.tar.gz tor
-$ mv tor.tar.gz tor ../../home/your_user
-now you can download via ftp
+# change to tor folder
+$ cd /var/lib/tor
+# create .tar.gz from keys
+$ tar -cvf keys.tar.gz keys
+# move .tar.gz two leves up to root directory
+$ mv keys.tar.gz tor ../..
+#now you can download via ftp from root directory
 
 # https://support.torproject.org/relay-operators/upgrade-or-move/
